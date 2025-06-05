@@ -11,17 +11,29 @@ This project analyzes global CO₂ emissions with the aim of evaluating progress
 git clone https://github.com/your-username/group14-co2-NetZeroTrackers.git
 cd group14-co2-NetZeroTrackers
 ```
-
 ```bash
-# create and activate virtual environment
+# Create and activate a virtual environment
+
+# On Windows PowerShell
 python -m venv venv
-source venv/bin/activate        # on Windows: venv\Scripts\activate
-```
+.\venv\Scripts\activate
 
+# On macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+```
 ```bash
-# install dependencies
+# Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
+```bash
+# Start Jupyter Notebook
+jupyter notebook
+```
+
+### 💡 Note:
+This project is tested with Python 3.10 and 3.11.
 
 ---
 ## 🔎 Datasets Used
