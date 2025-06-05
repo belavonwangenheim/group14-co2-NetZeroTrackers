@@ -1,0 +1,56 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IntelliJ / PyCharm
+.idea/
+
+# VSCode (falls jemand damit arbeitet)
+.vscode/
+
+# Datenbank / lokale Dateien
+*.sqlite3
+*.db
+*.log
+
+# Mac/Linux/Windows spezifisch
+.DS_Store
+Thumbs.db
+
+# temporäre Dateien
+*.tmp
+*.swp
+
+# Paketverwaltung
+*.egg-info/
+dist/
+build/
+
+# Pipenv / Poetry / PDM
+Pipfile.lock
+poetry.lock
+pdm.lock
+.pdm.toml
+
+# Test Cache
+.pytest_cache/
+.nox/
+.tox/
+
+# Weitere Tools (optional)
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/

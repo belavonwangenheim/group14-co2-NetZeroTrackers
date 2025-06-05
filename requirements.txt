@@ -1,0 +1,10 @@
+pandas
+jupyter
+nltk
+feedparser
+beautifulsoup4
+requests
+fastparquet
+torchtext==0.18.0
+torch~=2.3.0
+transformers
