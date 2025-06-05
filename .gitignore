@@ -58,3 +58,10 @@ pdm.lock
 # Datensätze
 data/raw/
 data/processed/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*.html
+*.pdf
+
