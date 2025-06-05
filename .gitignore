@@ -57,7 +57,8 @@ pdm.lock
 
 # Datensätze
 data/raw/
-data/processed/
+!data/processed/
+
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
