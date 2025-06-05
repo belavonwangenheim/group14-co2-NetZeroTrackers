@@ -54,3 +54,7 @@ pdm.lock
 .mypy_cache/
 .pyre/
 .pytype/
+
+# Datensätze
+data/raw/
+data/processed/
