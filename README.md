@@ -43,19 +43,13 @@ Source: https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emission
 📁Raw file: `GCB2022v27_MtCO2_flat`  
 📁Processed file: `co2_cleaned_total.csv`
 
-**2. CO₂ & GHG Emissions Data:**  
-Historic greenhouse gas emissions (CO₂, CH₄, N₂O), including per capita and cumulative values, since 1750.  
-Source: https://www.kaggle.com/datasets/yoannboyere/co2-ghg-emissionsdata  
-📁Raw file:  
-📁Processed file: 
-
-**3. Energy Consumption and Generation:**  
-Worldwide energy use and production data since 1965, segmented by energy type.  
+**2. Energy Consumption and Generation:**  
+Global energy consumption and production data by country and energy type (e.g. coal, oil, renewables) from 1965 to 2021.  
 Source: https://www.kaggle.com/datasets/donjoeml/energy-consumption-and-generation-in-the-globe  
-📁Raw file:  
-📁Processed file: 
+📁Raw file: `World Energy Consumption.csv`  
+📁Processed `wec_cleaned.csv`  
 
-**4. Our World in Data – CO₂ CSV:**  
+**3. Our World in Data – CO₂ CSV:**  
 Consolidated emissions dataset including population, energy use, and GDP metrics.  
 Source: https://github.com/owid/co2-data  
 📁Raw file:  
