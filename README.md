@@ -58,6 +58,6 @@ Source: https://github.com/owid/co2-data
 ---
 ## 👥 Authors
 Béla von Wangenheim  
-Jana Tam Nhu Pham, 589159  
+Jana Tam Nhu Pham, 589159
 XXX  
 XXX  
