@@ -2,7 +2,7 @@
 
 This project analyzes global CO₂ emissions with the aim of evaluating progress toward net-zero targets by 2075. The analysis focuses on G7 countries, selected key EU member states, and other major contributors to global emissions. By examining historical trends, forecasting future developments, and identifying the most relevant sources of CO₂, the project aims to assess whether current trajectories align with international climate goals – and what actions may be necessary to close potential emission gaps.
 
----
+
 
 ## 🔧 Setup
 
@@ -35,7 +35,7 @@ jupyter notebook
 ### 💡 Note:
 This project is tested with Python 3.10 and 3.11.
 
----
+
 ## 🔎 Datasets Used
 **1. Global Fossil CO₂ Emissions by Country:**  
 Annual CO₂ emissions by fuel type (coal, oil, gas, cement, etc.) since 1950.  
@@ -55,9 +55,9 @@ Source: https://github.com/owid/co2-data
 📁Raw file:  
 📁Processed file:  
 
----
+
 ## 👥 Authors
 Béla von Wangenheim  
-Jana Tam Nhu Pham, 589159
+Jana Tam Nhu Pham, 589159  
 XXX  
 XXX  
