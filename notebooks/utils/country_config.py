@@ -23,9 +23,9 @@ country_colors = {
 }
 
 # Gruppenbildung (Ausgewählte Länder für Analyse)
-g7 = ['United States', 'Germany', 'France', 'Canada', 'Italy', 'Japan', 'United Kingdom']
+g7 = ['United States', 'Germany', 'France', 'Canada', 'Japan', 'United Kingdom']
 eu_core = ['Spain', 'Poland', 'Netherlands', 'Sweden']
-extra_countries = ['Vietnam', 'Malaysia', 'Singapore', 'United Arab Emirates']
+extra_countries = ['China', 'India', 'Russia', 'Brazil', 'Vietnam', 'Malaysia', 'Singapore', 'United Arab Emirates']
 
 # Funktion für jedes Notebook, um die Top 10 globalen CO2-Emittenten dynamisch zu bestimmen
 def get_selected_countries(df, value_col='Total'):
