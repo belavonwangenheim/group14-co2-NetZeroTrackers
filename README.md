@@ -55,6 +55,13 @@ Source: https://github.com/owid/co2-data
 📁Raw file:  
 📁Processed file:  
 
+**4. World Development Indicators:**  
+World Bank data on GDP, population, and other economic indicators.  
+Source: https://www.kaggle.com/datasets/theworldbank/world-development-indicators?resource=download
+📁Raw file: `WDICountry.csv`  
+📁Raw file: `WEDIData.csv`  
+📁Raw file: `WDISeries.csv`  
+📁Processed file: ``  
 
 ## 👥 Authors
 Béla von Wangenheim  
