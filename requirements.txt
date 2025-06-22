@@ -8,3 +8,7 @@ fastparquet
 torch~=2.3.0
 torchtext==0.18.0
 transformers==4.41.1
+numpy
+scikit-learn
+scipy
+matplotlib
