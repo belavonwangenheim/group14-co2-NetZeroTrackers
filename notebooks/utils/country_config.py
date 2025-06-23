@@ -29,12 +29,26 @@ g7 = ['United States', 'Germany', 'France', 'Canada', 'Japan', 'United Kingdom']
 eu_core = ['Spain', 'Poland', 'Netherlands', 'Sweden', 'Italy']
 extra_countries = ['China', 'India', 'Russia', 'Brazil', 'Vietnam', 'Malaysia', 'Singapore', 'United Arab Emirates', 'South Korea']
 
+"""
+Warum wird ein Land AUSGEWÄHLT:
+✅ G7-Mitglied (immer dabei)
+✅ EU-Kernland (immer dabei)
+✅ Wichtiges Schwellenland (immer dabei)
+✅ Top 10 GDP-Durchschnitt UND mindestens 5 Jahre Daten
+
+Warum wird ein Land NICHT ausgewählt:
+❌ Zu wenig Daten (< 5 Jahre GDP-Werte)
+❌ Nur Nullwerte (sum_value = 0)
+❌ Nicht in Top 10 GDP UND nicht in vordefinierter Liste
+❌ Fehlende Farbe in country_colors (beim Plotten)
+    """
+
 # Alle wichtigen Länder kombiniert
 all_selected_countries = sorted(set(g7 + eu_core + extra_countries))
 
 # Verbesserte einheitliche Länderauswahl für alle Notebooks
 def get_selected_countries(df, value_col='Total'):
-    """
+"""
     Einheitliche Länderauswahl basierend auf Datenqualität und Abdeckung.
     Verwendet Durchschnittswerte statt Summen um Verzerrungen durch fehlende Jahre zu vermeiden.
 
