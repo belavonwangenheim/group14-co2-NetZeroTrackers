@@ -35,7 +35,7 @@ Aktuell in der **Datenverständnis- und Visualisierungsphase**.
 
 **Nächster Schritt**: Modellentwicklung mit geplanter Aufteilung:
 - **Training**: 1960-2010 (50 Jahre historische Muster)
-- **Test**: 2013-2018 (echte Vorhersage-Simulation)
+- **Test**: 2011-2018 (echte Vorhersage-Simulation)
 - **Prognose**: 2019-2075 (Net-Zero Bewertung)
 
 ---
