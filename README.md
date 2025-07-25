@@ -36,7 +36,7 @@ cd group14-co2-NetZeroTrackers
 # Create and activate a virtual environment
 
 # On Windows PowerShell
-python -m venv venv
+py -3.11 -m venv venv
 .\venv\Scripts\activate
 
 # On macOS / Linux
