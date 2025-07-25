@@ -18,7 +18,7 @@ Enthält BIP, Bevölkerung, Wirtschaftsstruktur (Industrie-/Dienstleistungsantei
 ## Authors
 Béla von Wangenheim, 589289  
 Jana Tam Nhu Pham, 589159  
-XXX  
+Elisa Khoury, 589942
 XXX
 
 ## Anforderungen
